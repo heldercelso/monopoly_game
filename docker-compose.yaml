@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+    web:
+        image: monopoly
+        container_name: monopoly
+        build: .
+        command: sh -cx "python run.py"
+        volumes:
+            - .:/code
