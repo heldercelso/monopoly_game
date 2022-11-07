@@ -41,7 +41,7 @@ To run without docker just use:
 (it is needed python `3.7.9` installed on the machine)
 
 ```shell
-# Command execute directly:
+# Command to execute directly:
 $ python run.py
 ```
 
