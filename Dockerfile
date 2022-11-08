@@ -1,6 +1,6 @@
 # command to build:
-# - docker build . -t flask_app
-# or use the docker-compose.yml with the build parameter
+# - docker build . -t monopoly
+# or use the docker-compose.yaml with the build parameter
 FROM python:3.7.9-alpine
 
 # defining the working directory which will receive the web_project files
